@@ -1136,22 +1136,7 @@ class _AlgoScreenState extends State<AlgoScreen> {
                       ),
                     ),
                   
-                     new GestureDetector(
-                      onTap: () {
-                                // Navigate to Learning
-                                debugPrint("Pressed here");
-                                Navigator.push(
-                                  context,
-                                  MaterialPageRoute(builder: (context) => Code55Screen()),
-                                );
-                              },
-                        child: CardCourses(
-                        image: Image.asset("assets/images/icon_2.png", width: 40, height: 40),
-                        color: Constants.lightYellow,
-                        title: "Prims Algorithm",
-                        hours: "Press to Continue",
-                      ),
-                    ),
+                    
                      new GestureDetector(
                       onTap: () {
                                 // Navigate to Learning
