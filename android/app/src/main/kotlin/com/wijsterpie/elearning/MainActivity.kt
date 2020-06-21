@@ -1,4 +1,4 @@
-package com.wijsterpie.elearning
+package com.algomaster.app
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity
